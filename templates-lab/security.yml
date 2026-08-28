@@ -15,6 +15,7 @@
         mode: '0440'
         validate: /sbin/visudo -cf %s
     
+    
     - name: Display success message
       debug:
         msg: "Hardened sudoers template deployed successfully"
